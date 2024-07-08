@@ -17,5 +17,16 @@
   </dependencies>
   <build>
     <finalName>dockeransible</finalName>
+     <!-- Maven War Plugin configuration -->
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version> <!-- Use a newer version -->
+        <configuration>
+          <!-- Configuration options for the Maven War Plugin -->
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
