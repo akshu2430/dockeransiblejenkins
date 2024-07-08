@@ -1,3 +1,2 @@
 [webservers]
-192.168.103.206 ansible_user=fs-akanksha
 192.168.103.68 ansible_user=fs-lp-kn-13
