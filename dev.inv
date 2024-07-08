@@ -1,2 +1,2 @@
 [webservers]
-192.168.103.68 ansible_user=fs-lp-kn-13
+192.168.103.68 
