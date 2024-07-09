@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.103.206
+- hosts: localhost
   become: true
   tasks:
     - name: Install python pip
@@ -25,4 +25,4 @@
         image: "akshu24/docker-ansible:{{DOCKER_TAG}}"
         state: started
         published_ports:
-          - "8086:8088"
+          - "8088:8088"
