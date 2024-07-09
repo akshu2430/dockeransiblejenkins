@@ -25,4 +25,4 @@
         image: "akshu24/docker-ansible:{{DOCKER_TAG}}"
         state: started
         published_ports:
-          - 192.168.103.206:8088:8080
+          - 192.168.103.206:8086:8080
